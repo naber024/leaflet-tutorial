@@ -12,10 +12,10 @@
 </head>
 
 <body>
-    <div id="mapid" style="height:925px"></div>
+    <div id="mapid" style="height: 925px;"></div>
 
     <script>
-        var mymap = L.map('mapid').setView([45.586111, -95.913889], 13);
+        var mymap = L.map('mapid').setView([45.586111, -95.913889], 7);
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -62,8 +62,8 @@
     </script>
 
     <script>
-        var path = [[44.0121, -92.4802], [47.7504, -90.3343], [46.8772, -96.7898], [48.8461, -95.7628], [44.913815, -93.17459], [43.623255, -95.5964], [46.7867, -92.1005], [47.504496, -94.87105], [45.584124, -95.9092],
-        [45.5579, -94.1632], [44.9782, -93.2554], [44.0121, -92.4802]];
+        var path = [[44.0121, -92.4802], [47.7504, -90.3343], [46.8772, -96.7898], [48.8461, -95.7628], [43.623255, -95.5964], [46.7867, -92.1005], [47.504496, -94.87105], [45.584124, -95.9092],
+        [45.5579, -94.1632], [44.9782, -93.2554], [44.913815, -93.17459], [44.0121, -92.4802]];
 
         var lineStyle = {
             "dashArray": [
